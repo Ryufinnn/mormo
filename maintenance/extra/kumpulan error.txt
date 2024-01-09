@@ -1,0 +1,1 @@
+1. Warning: Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\mormo\maintenance\gelkp.php:140) in C:\xampp\htdocs\mormo\maintenance\gelkp.php on line 149

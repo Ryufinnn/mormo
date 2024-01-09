@@ -1,0 +1,63 @@
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+	background: black;
+	width:100%;
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background: white;
+}
+
+.strike > span:before {
+    right: 100%;
+}
+
+.strike > span:after {
+    left: 100%;
+}
+
+
+.strikes {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+	background: width;
+	width:100%;
+}
+
+.strikes > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strikes > span:before,
+.strikes > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+    background: black;
+}
+
+.strikes > span:before {
+    right: 100%;
+}
+
+.strikes > span:after {
+    left: 100%;
+}
